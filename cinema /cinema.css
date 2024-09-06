@@ -1,0 +1,34 @@
+h1 {
+  color: blue;
+  background-color: bisque;
+  border-style: groove;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.img__container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.buttonstyle {
+  display: flex;
+  justify-content: center;
+  
+}
+
+h3{
+display: flex;
+justify-content: center;
+color: purple;
+text
+
+
+}
