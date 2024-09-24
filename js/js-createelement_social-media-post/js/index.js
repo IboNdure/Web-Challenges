@@ -14,11 +14,12 @@ const addPost = () => {
 
   // Create post content (text or image)
   const postContent = document.createElement("p");
-  postContent.textContent = "This is another social media post.";
+  postContent.textContent =
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit.";
 
   // Create the like button
   const likeButton = document.createElement("button");
-  likeButton.textContent = "Like";
+  likeButton.textContent = "♥ Like";
   likeButton.classList.add("post__button");
   likeButton.setAttribute("data-js", "like-button");
 
