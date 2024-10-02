@@ -33,7 +33,7 @@ function add(...allNumbers) {
 }
 
 export const sum = add(3, 2, 3, 2, 1, 2, 3, 4);
-
+console.log(add);
 // EXERCISE 4
 // a) Below, the `add` function is called with an array as argument.
 // b) Use the spread syntax with the `numbers` argument to fix this.
