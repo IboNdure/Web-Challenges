@@ -2,6 +2,10 @@ import { useRouter } from "next/router";
 import { volumes } from "/lib/data";
 import Image from "next/image";
 import Link from "next/link";
+// import ArrowLeft from "./icons/arrow-left.svg";
+// import ArrowRight from "./icons/arrow-right.svg";
+// import ChevronLeft from "./icons/chevron-left.svg";
+
 const VolumeDetail = () => {
   const router = useRouter();
   const { slug } = router.query;
